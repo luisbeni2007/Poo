@@ -12,4 +12,4 @@ def calcular_somas():
             soma_impares += numero
 
             print(f"Soma dos pares = {soma_pares}")
-            print(f"Soma dos impares = {soma_impares}")
+            print(f"Soma dos impares = {soma_impares}")       
