@@ -17,4 +17,6 @@ def main():
 
     circuferencia = circuferencia.calcular_circuferencia()
     print(f"circuferencia do círculo: {circuferencia:.2f}")
-    if __name__ == "__main__": main()
+
+    
+if __name__ == "__main__": main()
