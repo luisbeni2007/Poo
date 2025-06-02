@@ -20,11 +20,23 @@ class ContaBancaria:
         if valor > self._saldo: raise ValueError("Saldo insuficiente")
         self._saldo = self._saldo - valor
         
-    x = Conta ("Luis", "1234")
-    
+x = ContaBancaria("Luis", "1234")
+print(x.get_saldo)
+x.depositar(100)
+print(x.get_saldo())
+x.depositar(50)
+print(x.get_saldo())
+x.sacar(40)
+print(x.get_saldo())
+x.sacar(40)
+print(x.get_saldo())
+x.sacar(40)
+print(x.get_saldo())
+x.sacar(200)   #Erro
+print(x.get_saldo())
 
-    def set_titular(self, novo_titular):
+def set_titular(self, novo_titular):
         self._titular = novo_titular
     
-    def set_número(self, novo_número):
+def set_número(self, novo_número):
         self.número = novo_número
