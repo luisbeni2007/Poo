@@ -26,5 +26,5 @@ class contabancaria:
         conta.sacar(200)
         conta.mostrar_saldo
         conta. sacar(2000)
-if __name__ == "__main__": 
+    if __name__ == "__main__": 
         main()
