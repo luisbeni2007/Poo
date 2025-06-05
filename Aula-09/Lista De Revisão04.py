@@ -22,3 +22,5 @@ class viagem:
     def set_litros(self,litros):
         self.litros = litros
     
+    def consumo(self):
+        return self.__distancia / self.__litros
