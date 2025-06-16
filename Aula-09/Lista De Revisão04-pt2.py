@@ -47,16 +47,12 @@ class PaisUI:
 
     @staticmethod
     def calculo():
-        try:
-            nome = input()
-            populacao = int(input())
-            area = float(input())
+            nome = input("Informe o nome do país:")
+            populacao = int(input("População:"))
+            area = float(input("Área:"))
             pais = Pais(nome, populacao, area)
             print(pais)
-            print(f"{pais.densidade():.2f}")
-        except:
-            print("Erro")
-
+            print(f"densidade = {pais.densidade():} hab/km2")
     @staticmethod
     def main():
         while True:
