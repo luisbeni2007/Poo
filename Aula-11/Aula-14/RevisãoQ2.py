@@ -51,7 +51,7 @@ def Inserir(self):
         self.treinos.append(treino)
         print("treino inserido com sucesso!")
     except Exception as e:
-         print("Erro ao inserir treino:", e)
+        print("Erro ao inserir treino:", e)
 
 def listar(self):
         if not self.treinos:
