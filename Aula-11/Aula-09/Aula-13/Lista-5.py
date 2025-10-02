@@ -1,6 +1,5 @@
 from datetime import date, datetime
 
-
 class paciente:
     def __init__(self,nome: str , cpf: str, telefone: str, nascimento:datetime):
         self.__nome = nome
